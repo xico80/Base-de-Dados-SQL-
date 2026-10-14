@@ -1,3 +1,4 @@
+--Exercícios:
 select TITULO,DIA,HORA from ESPETACULOS order by DIA, HORA; --P1)
 select NOME,D_NASCE from ARTISTAS where tipo="Pianista" order by D_NASCE; --P2)
 select nome,dia,titulo from artistas,espetaculos where artista=nif order by nome,dia desc;--P3)
